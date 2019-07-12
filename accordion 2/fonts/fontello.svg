@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="off" unicode="&#xe800;" d="M0 350q0 207 147 354l101-102q-105-103-105-252t104-253 253-104 253 104 104 253-105 252l102 102q146-147 146-354t-146-354-354-146-353 146-147 354z m428-78l0 578 144 0 0-578-144 0z" horiz-adv-x="1000" />
+
+<glyph glyph-name="torso" unicode="&#xe801;" d="M0-150l0 358 338 144q-61 37-92 101t-31 133q0 104 64 184t162 80q102-4 164-83t63-181q-2-74-33-136t-86-98l334-144 0-358-883 0z" horiz-adv-x="883" />
+
+<glyph glyph-name="email" unicode="&#xe802;" d="M0 62l0 576q0 1 3 19l339-290-338-325q-4 14-4 20z m45 635q7 3 17 3l913 0q9 0 18-3l-340-291-45-36-89-73-89 73-45 36z m1-694l341 327 132-107 132 107 341-327q-8-3-17-3l-913 0q-8 0-16 3z m650 364l338 290q3-9 3-19l0-576q0-9-3-20z" horiz-adv-x="1037" />
+
+<glyph glyph-name="cog" unicode="&#xe803;" d="M1000 421v-142l-185-26q-10-27-21-50l120-157-102-100-159 118q-20-10-51-21l-30-194h-143l-27 197q-21 7-43 18l-161-119-101 100 121 160q-11 21-19 46l-199 28v142l199 28q7 21 19 45l-120 159 101 100 160-119q15 8 47 20l28 195h143l28-195q22-7 48-19l158 117 102-100-119-156q13-27 20-48z m-348-72q0 60-43 102t-103 42-102-42-43-102 43-102 102-42 103 42 43 102z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

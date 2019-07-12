@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+		<ul class="accordion simple-accordion">
+			<li class="active">
+				<a href="#" class="opener profile">Profile</a>
+				<div class="slide">
+					<ul>
+            <li><a href="#">Inbox</a></li>
+            <li><a href="#">Sent</a></li>
+            <li><a href="#">Draft</a></li>
+          </ul>
+				</div>
+			</li>
+			<li>
+				<a href="#" class="opener messages not_viewed">Messages</a>
+				<div class="slide">
+            <ul>
+              <li><a href="#">Inbox</a></li>
+              <li><a href="#">Sent</a></li>
+              <li><a href="#">Draft</a></li>
+            </ul>
+				</div>
+			</li>
+			<li>
+				<a href="#" class="opener settings">Settings</a>
+				<div class="slide">
+            <ul>
+              <li><a href="#">Inbox</a></li>
+              <li><a href="#">Sent</a></li>
+              <li><a href="#">Draft</a></li>
+            </ul>
+				</div>
+      </li>
+      <li>
+        <a href="#" class="opener logout">Log Out</a>
+      </li>
+		</ul>
+
+  
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.accordion.js"></script>
+    <script>
+      // page init
+      jQuery(function(){
+        initAccordion();
+      });
+
+      // accordion init
+      function initAccordion() {
+        jQuery('.simple-accordion').slideAccordion({
+          opener:'>a.opener',
+          slider:'>div.slide',
+          collapsible:false,
+          animSpeed: 300
+        });
+        // jQuery('ul.multilevel-accordion').slideAccordion({
+        //   opener:'>a.opener',
+        //   slider:'>div.slide',
+        //   collapsible:true,
+        //   animSpeed: 300
+        // });
+      }
+    </script>
+</body>
+</html>
